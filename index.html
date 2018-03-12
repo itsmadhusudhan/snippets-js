@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snippets Js</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+
+    <button class="hamburger">
+        <span></span>
+    </button>
+
+    <nav class="sidebar__navigation">
+        <ul class="sidebar__menu">
+            <li class="menu__item">
+                <a href="#fetch" class="menu__link">Fetch API</a>
+            </li>
+            <li class="menu__item">
+                <a href="#foreach" class="menu__link">For Each</a>
+            </li>
+            <li class="menu__item">
+                <a href="#map" class="menu__link">Map</a>
+            </li>
+            <li class="menu__item">
+                <a href="#sort" class="menu__link">Sort</a>
+            </li>
+            <li class="menu__item">
+                <a href="#templatestrings" class="menu__link">Template Strings</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="content__container">
+        <header>
+            <h1 class="header__heading">Snippets Js</h1>
+            <p class="header__subheading">Collection of useful JavaScript Snippets</p>
+        </header>
+
+        <div class="tabs">
+            <a href="#all" class="tab tab--all">ALL</a>
+            <a href="#request" class="tab">Request</a>
+            <a href="#dom" class="tab">DOM</a>
+            <a href="#events" class="tab">Events</a>
+            <a href="#layout" class="tab">Layout</a>
+        </div>
+
+        <div class="tabs__content--container" id="all">
+            <section class="tab__content is-active" id="request">
+                <h1>Request</h1>
+                <div class="request__content" id="fetch">
+                    <h2>Fetch</h2>
+                    Fetch is an ES6 feature which is a promise that resolves or rejected.
+                </div>
+                <div class="request__content" id="foreach">
+                    <h2>For Each</h2>
+                </div>
+                <div class="request__content" id="map">
+                    <h2>map</h2>
+                </div>
+                <div class="request__content" id="sort">
+                    <h2>sort</h2>
+                </div>
+                <div class="request__content" id="templatestrings">
+                    <h2>templatestrings</h2>
+                </div>
+
+            </section>
+            <div class="tab__content is-active" id="dom">
+                <h1>DOM</h1>
+            </div>
+            <div class="tab__content is-active" id="events">
+                <h1>Events</h1>
+            </div>
+            <div class="tab__content is-active" id="layout">
+                <h1>Layout</h1>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="/src/script.js"></script>
+</body>
+
+</html>
